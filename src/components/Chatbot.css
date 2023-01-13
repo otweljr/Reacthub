@@ -24,3 +24,13 @@
 .chatbot-img:hover{
     cursor: pointer;
 }
+
+
+
+@media screen and (max-width:768px) {
+
+    .chatbot-form{
+        width: 95%; 
+        margin: auto;
+    }
+}
