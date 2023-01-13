@@ -1,0 +1,26 @@
+.chatbot-form{
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 2px solid black;
+}
+
+.chatbot-form>input,textarea{
+    margin: 20px;
+    border: 1px solid #243CF4;
+}
+
+.chatbot-form>input{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.chatbot-img{
+    width: 70px;
+
+}
+
+.chatbot-img:hover{
+    cursor: pointer;
+}

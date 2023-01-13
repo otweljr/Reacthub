@@ -5,9 +5,6 @@ function Homepage() {
   return (
     <>
     <div className="homepage">
-
-    
-
     <div className="breaking_news">
       <img src={pic} alt="breakingnews" />
       <h1>Stay tune for more news</h1>
