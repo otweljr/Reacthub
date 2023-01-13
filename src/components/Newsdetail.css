@@ -1,0 +1,14 @@
+.newsdetails{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.newsdetail_image{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.newsdetail_image>img{
+    width: 100%;
+}
