@@ -6,10 +6,8 @@ import Homepage from './Homepage'
 import LatestNews from './LatestNews'
 
 function Home() {
-  return (
-        
-    
-    <div>
+  return ( 
+    <div> 
       <Header />
       <Homepage/>
       <LatestNews />

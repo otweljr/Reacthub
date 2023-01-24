@@ -10,15 +10,16 @@ function Chatbot() {
 
     const openChtbot =()=>{
         // 
-        setIsOpen(true)
+        setIsOpen(prev=>!prev)
     }
     const closeChtbot =()=>{
         // 
         setIsOpen(false)
     }
 
-    const handleSubmit =(e)=>{
-        e.preventDefault()
+    const handleSubmit =(event)=>{
+        event.preventDefault()
+        setIsOpen(false)
     }
 
   return (

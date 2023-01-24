@@ -17,13 +17,23 @@
 }
 
 .chatbot-img{
-    width: 70px;
+    width: 50px;
+    border: 2px solid red;
+    border-radius: 50%;
 
 }
 
 .chatbot-img:hover{
     cursor: pointer;
 }
+
+.chatbot-container{
+    position: sticky;
+    bottom: 10px;
+    right: 0;
+    
+}
+
 
 
 

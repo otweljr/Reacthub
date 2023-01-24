@@ -9,9 +9,9 @@ import Newsdetail from './components/Newsdetail'
 
 function App() {
   return (
-  <>
+  <> 
     <Routes>
-      <Route exact path="/" element={<Home />}/>
+      <Route exact path="/home" element={<Home />}/>
       <Route exact path="/about" element={<About />}/>
       <Route exact path="/article" element={<Article/>}/>
       <Route exact path="/publish" element={<Publish />}/>
