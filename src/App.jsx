@@ -22,24 +22,19 @@ function App() {
   return (
   <> 
   {
-    load ? <Loading/> : <div>
-    <Home />
+    load ? <Loading/> :
+     <div>
+    {/* <Home /> */}
     <Routes>
-      {/* <Route exact path="/home" element={<Home />}/> */}
-      <Route exact path="/about" element={<About />}/>
-      <Route exact path="/article" element={<Article/>}/>
-      <Route exact path="/publish" element={<Publish />}/>
-      <Route exact path="/:id" element={<Newsdetail/>} />
+      <Route exact path="/home" element={<Home/> }   />
+      <Route  path="/about" element={<About />}/>
+      <Route  path="/articles" element={<Article/>}/>
+      <Route  path="/publish" element={<Publish />}/>
+      <Route  path="/:id" element={<Newsdetail/>} />
     </Routes>
     </div>
   }
-
-
-  
-      
-
   </>
-
   )
 }
 

@@ -20,7 +20,9 @@ function Header() {
     <div className="header">
       <div className="header__content">
         <div className="logo">
+        
           <img src={logo} alt="logo" />
+         
         </div>
         <nav>
           <ul>{links.map((link) => (
