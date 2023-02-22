@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Footer.css"
 import logo from "../assets/PUMA_Logo_Cat.png"
+import Loading from './Loading'
 
 // const date= new Date()
 // const year=date.getFullYear()
@@ -10,6 +11,7 @@ import logo from "../assets/PUMA_Logo_Cat.png"
 function Footer() {
   return (
     <div className="footer">
+   
       <div className="upper_footer">
         <div className="about">
           <img src={logo} alt="logo" />
